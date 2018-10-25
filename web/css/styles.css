@@ -156,7 +156,7 @@ body {
 }
 
 .main-form-btn {
-    background: #ffb900; /*color-second*/
+    background: #005387; /*color-second*/
     color: #fff;
     width: 100%;
     height: 40px;
@@ -165,10 +165,10 @@ body {
 
 .main-btn-ir-catalogo {
     margin-top: 1rem;
-    background: #ffb900;
+    background: #005387;
     width: 100%;
     height: 80%;
-    color: black;
+    color: #fff;
     outline: none;
     font-size: 20px;
 }

@@ -38,7 +38,7 @@
     </header>
 
     <div class="main-banner">
-        <img src="img/banner-2.jpg" alt="Lamparas wifi house" class="main-banner-img">
+        <img src="../img/ferreteria2.jpg" alt="Lamparas wifi house" class="main-banner-img">
         <div class="ed-container">
             <div class="ed-item l-60 to-center">
                 <div class="main-banner-data">
@@ -59,6 +59,7 @@
             <div class="ed-item main-form-boton-ingresar">
                 <button class="button radius main-form-btn">Ingresar</button>
             </div>
+            <p class="to-center">¿Aún no tienes cuenta? Regístrate aquí</p>
         </div>
     </main>
     <footer class="main-footer" role="contentinfo" itemscope="" itemtype="http://schema.org/WPFooter">
