@@ -9,9 +9,9 @@ and open the template in the editor.
 */
 
 /*:root {
-    --color-first   : #118df0;
-    --color-second  : #0e2f56;
-    --color-third   : #ff304f;
+    --color-first   : #ffb900; amarillo
+    --color-second  : #505050; negro
+    --color-third   : #a3a3a3; gris
     --color-accent  : #ffd460;
     --color-dark    : #282D31;
     --color-border  : #DFE0E0;
@@ -32,6 +32,7 @@ body {
     height: 3rem;
     border-bottom: 1px solid #DFE0E0; /*color-border*/
     background: #fff;
+    background: #fff; /*color fondo nav amarillo*/
 }
 
 .logo {
@@ -61,7 +62,7 @@ body {
 /* Banner */
 .main-banner {
     /* background: var(--color-first); */
-    background: #118df0; /*color-first*/
+    background: #ffb900; /*color-first*/
     padding: 4rem 0 5rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     position: relative;
@@ -76,7 +77,7 @@ body {
 /* Topbar  */
 
 .topbar--dark {
-    background: #0e2f56; /*color-second*/
+    background: #505050; /*color-second*/
     color: #fff;
 }
 
@@ -133,4 +134,23 @@ body {
     color: #fff;
     margin-top: 4rem;
     padding: 1rem ;
+}
+
+#txt-main-ofertas{
+    text-align: center;
+    color: #ffb900;
+}
+
+.producto-oferta {
+    border: 2px solid #505050;
+}
+
+.main-ofertas-producto {
+    border: 2px solid #505050;
+    padding: 1rem;
+    color: #505050;   
+}
+
+.txt-oferta-precio {
+    color: #ffb900;
 }

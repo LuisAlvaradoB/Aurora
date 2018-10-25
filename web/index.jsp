@@ -44,11 +44,11 @@ and open the template in the editor.
     </div>
 
     <div class="main-banner">
-        <img src="img/banner-2.jpg" alt="Lamparas wifi house" class="main-banner-img">
+        <img src="img/ferreteria3.jpg" alt="Lamparas wifi house" class="main-banner-img">
         <div class="ed-container">
             <div class="ed-item l-60 to-center">
                 <div class="main-banner-data">
-                    <h1>Ferreteria líder en ventas online</h1>
+                    <h1>Somos la red ferretera líder en ventas online</h1>
                 </div>
             </div>
         </div>
@@ -57,9 +57,35 @@ and open the template in the editor.
     <main>
         <div class="ed-container">
             <div class="ed-item section-title">
-                <h2 class="center">
-                    La solución inteligente que estabas esperando para tu hogar o trabajo
-                </h2>
+                <h1 class="center">
+                    ¡Compra tranquilo y seguro! Más de 1000 productos en catálogo
+                </h1>
+            </div>
+        </div>
+        
+        <div class="ed-container">
+            <div class="ed-item to-center">
+                <h2 id="txt-main-ofertas">¡Aprovecha las ofertas del mes!</h2>
+            </div>
+            <div class="ed-item l-25 main-ofertas-producto">
+                <img class="producto-oferta" src="img/herramientas/atornillador-electrico.jpeg" alt="atornillador-electrico"/>
+                <p>Atornillador inalámbrico 1/4" DCF060 Dewalt</p>
+                <h3 class="txt-oferta-precio">Internet: $39.990</h3>
+            </div>
+            <div class="ed-item l-25 main-ofertas-producto">
+                <img class="producto-oferta" src="img/herramientas/sierra-circular.jpeg" alt="atornillador-electrico"/>
+                <p>Sierra circular + taladro percutor + sierra caladora x3 piezas Black+Decker</p>
+                <h3 class="txt-oferta-precio">Internet: $69.990</h3>
+            </div>
+            <div class="ed-item l-25 main-ofertas-producto">
+                <img class="producto-oferta" src="img/herramientas/taladro-percutor.jpeg" alt="atornillador-electrico"/>
+                <p>Taladro percutor GSB 16 RE 750w Bosch</p>
+                <h3 class="txt-oferta-precio">Internet: $78.990</h3>
+            </div>
+            <div class="ed-item l-25 main-ofertas-producto">
+                <img class="producto-oferta" src="img/herramientas/set-taladro.jpeg" alt="atornillador-electrico"/>
+                <p>Set taladro inalámbrico CD121K100 101 piezas Black+Decker</p>
+                <h3 class="txt-oferta-precio">Internet: $45.990</h3>
             </div>
         </div>
 
