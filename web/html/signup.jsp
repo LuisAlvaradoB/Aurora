@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login
-    Created on : 23-oct-2018, 23:32:45
+    Document   : sign-up
+    Created on : 25-oct-2018, 16:12:30
     Author     : luis
 --%>
 
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/login.css">
 
-    <title>R3D | Login</title>
+    <title>R3D | Registrarse</title>
 </head>
 <body>
     <header class="main-header cross-center">
@@ -42,7 +42,7 @@
         <div class="ed-container">
             <div class="ed-item l-60 to-center">
                 <div class="main-banner-data">
-                    <h1>Ingresa a tu Ferretería online</h1>
+                    <h1>¡Bienvenid@ a la red ferretera líder en ventas online!</h1>
                 </div>
             </div>
         </div>
@@ -50,16 +50,28 @@
 
     <main>
         <div class="ed-container main.form center">
+            <div class="ed-item main-form-name">
+                <input type="text" value="" placeholder="Nombre">
+            </div>
+            <div class="ed-item main-form-lastnamePat">
+                <input type="text" value="" placeholder="Apellido Paterno">
+            </div>
+             <div class="ed-item main-form-lastnameMat">
+                <input type="text" value="" placeholder="Apellido Materno">
+            </div>
             <div class="ed-item main-form-email">
-                <input type="text" value="email" placeholder="Email">
+                <input type="text" value="" placeholder="Email">
             </div>
             <div class="ed-item main-form-password">
-                <input type="text" value="password" placeholder="Contraseña">
+                <input type="text" value="" placeholder="Contraseña">
+            </div>
+            <div class="ed-item main-form-passwordRe">
+                <input type="text" value="" placeholder="Repita contraseña">
             </div>
             <div class="ed-item main-form-boton-ingresar">
                 <button class="button radius main-form-btn">Ingresar</button>
             </div>
-            <p class="to-center">¿Aún no tienes cuenta? <a href="../html/signup.jsp">Regístrate aquí</a></p>
+            <p class="to-center">¿Aún no tienes cuenta? Regístrate aquí</p>
         </div>
     </main>
     <footer class="main-footer" role="contentinfo" itemscope="" itemtype="http://schema.org/WPFooter">
