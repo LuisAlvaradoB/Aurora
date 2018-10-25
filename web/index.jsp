@@ -70,85 +70,64 @@ and open the template in the editor.
             <div class="ed-item l-25 main-ofertas-producto">
                 <img class="producto-oferta" src="img/herramientas/atornillador-electrico.jpeg" alt="atornillador-electrico"/>
                 <p>Atornillador inalámbrico 1/4" DCF060 Dewalt</p>
-                <h3 class="txt-oferta-precio">Internet: $ 39.990</h3>
+                <h3 class="txt-oferta-precio">Oferta Internet: $ 39.990</h3>
                 <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
-                <img class="producto-oferta" src="img/herramientas/sierra-circular.jpeg" alt="atornillador-electrico"/>
+                <img class="producto-oferta" src="img/herramientas/sierra-circular.jpeg" alt="sierra-circular"/>
                 <p>Sierra circular + taladro percutor + sierra caladora</p>
-                <h3 class="txt-oferta-precio">Internet: $ 69.990</h3>
+                <h3 class="txt-oferta-precio">Oferta Internet: $ 69.990</h3>
                 <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
-                <img class="producto-oferta" src="img/herramientas/taladro-percutor.jpeg" alt="atornillador-electrico"/>
+                <img class="producto-oferta" src="img/herramientas/taladro-percutor.jpeg" alt="taladro-percutor"/>
                 <p>Taladro percutor GSB 16 RE 750w Bosch</p>
-                <h3 class="txt-oferta-precio">Internet: $ 78.990</h3>
+                <h3 class="txt-oferta-precio">Oferta Internet: $ 78.990</h3>
                 <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
-                <img class="producto-oferta" src="img/herramientas/set-taladro.jpeg" alt="atornillador-electrico"/>
+                <img class="producto-oferta" src="img/herramientas/set-taladro.jpeg" alt="set-taladro"/>
                 <p>Set taladro inalámbrico CD121K100 101 piezas Black+Decker</p>
-                <h3 class="txt-oferta-precio">Internet: $ 45.990</h3>
+                <h3 class="txt-oferta-precio"> Oferta Internet: $ 45.990</h3>
                 <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
         </div>
-
-        <div class="ed-container main-features ">
-            <div class="ed-item l-50 center">
-                <div class="main-feature-img">
-                    <img src="assets/icons/svg/check-mark.svg" alt="logo-feature" class="logo-feature">
-                </div>
-                <h2>Extremadamente sencillo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
-                aliquam eos ipsam! Exercitationem molestiae provident rem hic, ipsam 
-                magnam porro magni, autem, obcaecati labore ab eaque explicabo a dolorum 
-                doloribus.
-                </p>        
+        
+        <div class="ed-container">
+            <div class="ed-item l-40">
+                
             </div>
-
-            <div class="ed-item l-50 center">
-                    <div class="main-feature-img">
-                        <img src="assets/icons/svg/benefit-chart.svg" alt="logo-feature" class="logo-feature">
-                    </div>
-                    <h2>Mayor rendimiento</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
-                    aliquam eos ipsam! Exercitationem molestiae provident rem hic, ipsam 
-                    magnam porro magni, autem, obcaecati labore ab eaque explicabo a dolorum 
-                    doloribus.
-                    </p>        
+            <div class="ed-item l-20">
+                <button class="button radius main-btn-ir-catalogo">Ir al catálogo</button>
             </div>
-
-            <div class="ed-item l-50 center">
-                    <div class="main-feature-img">
-                        <img src="assets/icons/svg/light-bulb.svg" alt="logo-feature" class="logo-feature">
-                    </div>
-                    <h2>Tecnología LED</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
-                    aliquam eos ipsam! Exercitationem molestiae provident rem hic, ipsam 
-                    magnam porro magni, autem, obcaecati labore ab eaque explicabo a dolorum 
-                    doloribus.
-                    </p>        
-            </div>
-
-            <div class="ed-item l-50 center">
-                    <div class="main-feature-img">
-                        <img src="assets/icons/svg/battery-level-1.svg" alt="logo-feature" class="logo-feature">
-                    </div>
-                    <h2>Producto de larga vida</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
-                    aliquam eos ipsam! Exercitationem molestiae provident rem hic, ipsam 
-                    magnam porro magni, autem, obcaecati labore ab eaque explicabo a dolorum 
-                    doloribus.
-                    </p>        
-            </div>
-
+            <div class="ed-item l-40"></div>
         </div>
+        
+        
+        <div class="ed-container to-center">
+            <h1 class="center to-center">
+                    ¡Compra online y pide tu retiro en tienda!
+             </h1>
+            <div class="ed-item l-50">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.757979343644!2d-71.25968958577072!3d-29.92886898192444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca45fe614d5d%3A0x9fde648b61cccacb!2sImperial+La+Serena!5e0!3m2!1ses!2scl!4v1540488458469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            
+            <div class="ed-item l-50">
+                <h2 class="center to-center">
+                    o bien te lo llevamos a casa
+                </h2>
+                <img class="to-center" id="img-delivery" src="img/delivery2.jpg" alt="despacho">  
+            </div>
+        </div>
+        
+
+       
     </main>
     <footer class="main-footer" role="contentinfo" itemscope="" itemtype="http://schema.org/WPFooter">
         <div class="ed-container main-footer--content">
             <div class="ed-item to-center center">
                 <p class="smaller">
-                    &copy; 2018 R3D - Ruta D-43 #901 Coquimbo Of 204 | Fono 51 2 65074 | 
+                    &copy; 2018 R3D - Av. Balmaceda & Los Perales, La Serena, Región de Coquimbo | Fono 51 2 65074 | 
                 </p>
                 <p>
                     Desarrollado por Felipe Olivares & Luis Alvarado</a>
