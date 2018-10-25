@@ -70,22 +70,26 @@ and open the template in the editor.
             <div class="ed-item l-25 main-ofertas-producto">
                 <img class="producto-oferta" src="img/herramientas/atornillador-electrico.jpeg" alt="atornillador-electrico"/>
                 <p>Atornillador inalámbrico 1/4" DCF060 Dewalt</p>
-                <h3 class="txt-oferta-precio">Internet: $39.990</h3>
+                <h3 class="txt-oferta-precio">Internet: $ 39.990</h3>
+                <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
                 <img class="producto-oferta" src="img/herramientas/sierra-circular.jpeg" alt="atornillador-electrico"/>
-                <p>Sierra circular + taladro percutor + sierra caladora x3 piezas Black+Decker</p>
-                <h3 class="txt-oferta-precio">Internet: $69.990</h3>
+                <p>Sierra circular + taladro percutor + sierra caladora</p>
+                <h3 class="txt-oferta-precio">Internet: $ 69.990</h3>
+                <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
                 <img class="producto-oferta" src="img/herramientas/taladro-percutor.jpeg" alt="atornillador-electrico"/>
                 <p>Taladro percutor GSB 16 RE 750w Bosch</p>
-                <h3 class="txt-oferta-precio">Internet: $78.990</h3>
+                <h3 class="txt-oferta-precio">Internet: $ 78.990</h3>
+                <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
             <div class="ed-item l-25 main-ofertas-producto">
                 <img class="producto-oferta" src="img/herramientas/set-taladro.jpeg" alt="atornillador-electrico"/>
                 <p>Set taladro inalámbrico CD121K100 101 piezas Black+Decker</p>
-                <h3 class="txt-oferta-precio">Internet: $45.990</h3>
+                <h3 class="txt-oferta-precio">Internet: $ 45.990</h3>
+                <button class="button radius main-form-btn"><img class="svg-cart" src="assets/svg/043-cart.svg"></button>
             </div>
         </div>
 
