@@ -29,7 +29,7 @@
                     <li class="main-menu-item"><a class="main-menu-link" href="#">Catalogo</a></li>
                     <li class="main-menu-item"><a class="main-menu-link" href="#">Ubicación</a></li>
                     <li class="main-menu-item"><a class="main-menu-link" href="#">Preguntas Frecuentes</a></li>
-                    <li class="main-menu-item"><a class="main-menu-link" href="html/sucursal.html">Iniciar Sesión</a></li>
+                    <li class="main-menu-item"><a class="main-menu-link" href="#">Iniciar Sesión</a></li>
                     
                 </ul>
             </nav>
@@ -47,14 +47,14 @@
             </div>
         </div>
     </div>
-        <form action="../IngresoLogin"> 
+        <form action="../IngresoLogin" method="post"> 
             <main>
                 <div class="ed-container main.form center">
                     <div class="ed-item main-form-email">
                         <input type="text" value="email" placeholder="Email" name="Email">
                     </div>
                     <div class="ed-item main-form-password">
-                        <input type="text" value="password" placeholder="Contraeña" name="Clave">
+                        <input type="password" value="password" placeholder="Contraseña" name="Clave">
                     </div>
                     <div class="ed-item main-form-boton-ingresar">
                         <button class="button radius main-form-btn">Ingresar</button>

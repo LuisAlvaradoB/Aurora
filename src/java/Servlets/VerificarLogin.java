@@ -57,16 +57,19 @@ public class VerificarLogin extends HttpServlet {
             out.print(userIngresado.getUsuario()); // IMPRESION DE CRENDDENCIALES DEV
             out.print(userIngresado.getPassword());
             out.print("<br>");
-
+            boolean encontrado = false;
             
-            for (Usuario user : credencialesBase) {
-                if (user.getUsuario().equals(userIngresado.getUsuario()) && user.getPassword().equals(userIngresado.getPassword())) {
+            for (Usuario user : credencialesBase) { // ITETERO EL ARRAYLIST SEGUN LA CANTIDAD DE OBJETOS EN LA LISTA
+               
+                if (user.getUsuario().equals(userIngresado.getUsuario()) && user.getPassword().equals(userIngresado.getPassword())) { // COMPARA EL OBJETO QUE VIENE DE LA LISTA Y LOS CAMPOS QUE VIENE DEL FORM
                     out.print("<h1>USUARIO EN LA BASE DE DATOS</h1>");
+                    encontrado = true; // CAMBIO EL VALOR DE BOOLEANO PARA QUE NO PASE POR EL IF QUE INDICA QUE NO ESTA EL USUARIO EN LA BASE DE DATOS
+                   
                     break;
-                } else {
-//                    out.print("<h1>USUARIO NO ENCONTRADO EN LA BASE DE DATOS</h1>");
-//                    break;
                 }
+            }
+            if (!encontrado){ // NEGACION DEL BOOLEANO PARA INDICAR QUE NO ESTA EL USUARIO INGRESADO EN LA BASE DE DATOS
+                out.print("<h1>USUARIO NO ENCONTRADO EN LA BASE DE DATOS</h1>");
             }
 
         } catch (Exception e) {
@@ -74,7 +77,6 @@ public class VerificarLogin extends HttpServlet {
         } finally {
             out.println("</body>");
             out.println("</html>");
-//            out.close();
         }
 
     }
